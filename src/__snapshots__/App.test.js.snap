@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test App renders as expected 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Render prop video player
+    </h1>
+  </header>
+  <p
+    className="App-intro"
+  >
+    Testing render props with a video component.
+  </p>
+  <div>
+    <video
+      controls={true}
+    />
+    <div>
+      <h3>
+        Now have access to parent context 
+        Hello
+         
+        World
+      </h3>
+      <div>
+         Current Time: 
+        0
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
